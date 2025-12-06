@@ -10,7 +10,7 @@ const productSchema = new mongoose.Schema(
       type: Number,
       required: true
     },
-    imageURI: {
+    image: {
       type: String,
       required: true
     }
