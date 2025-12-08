@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 
-app.use(express.json()); // allows us to accept JSON data in the req.body
+app.use(express.json()); // allows us to accept JSON data in the req.body 
 
 app.get("/api/products", async(req, res) => {
     try {
