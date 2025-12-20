@@ -33,6 +33,10 @@ const HomePage = () => {
           width={"full"}
         >
 
+          {products.map((product) => (
+            <ProductCard key ={product._id} product={product}/>
+          ))}
+
         </SimpleGrid>
 
         <Text
