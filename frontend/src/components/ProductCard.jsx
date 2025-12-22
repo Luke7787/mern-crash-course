@@ -41,7 +41,7 @@ const ProductCard = ({ product }) => {
 
         <HStack spacing={2}>
           <IconButton icon={<EditIcon />} colorScheme="blue" />
-          <IconButton icon={<DeleteIcon />} />
+          <IconButton icon={<DeleteIcon />} colorScheme="red" />
         </HStack>
       </Box>
     </Box>
