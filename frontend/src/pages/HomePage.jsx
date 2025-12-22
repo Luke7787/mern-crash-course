@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useProductStore } from "../store/product";
 import ProductCard from "../components/ProductCard";
 
-// SimpleGrid is not displaying correctly please come back to this issue
+// SimpleGrid is not displaying correctly please come back to this issue!
 
 const HomePage = () => {
   const { fetchProducts, products } = useProductStore();
