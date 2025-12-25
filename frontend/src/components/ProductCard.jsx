@@ -1,6 +1,7 @@
 import { EditIcon, DeleteIcon } from "@chakra-ui/icons";
 import {
   Box,
+  Button,
   Heading,
   HStack,
   IconButton,
@@ -10,6 +11,7 @@ import {
   ModalBody,
   ModalCloseButton,
   ModalContent,
+  ModalFooter,
   ModalHeader,
   ModalOverlay,
   Text,
@@ -97,6 +99,16 @@ const ProductCard = ({ product }) => {
               <Input placeholder="Image URL" name="image" />
             </VStack>
           </ModalBody>
+
+          <ModalFooter>
+            <Button colorScheme="blue" mr={3}>
+              Update
+            </Button>
+            <Button variant="ghost" onClick={onClose}>
+              {" "}
+              Cancel{" "}
+            </Button>
+          </ModalFooter>
         </ModalContent>
       </Modal>
     </Box>
