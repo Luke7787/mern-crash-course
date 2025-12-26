@@ -135,7 +135,6 @@ const ProductCard = ({ product }) => {
               />
             </VStack>
           </ModalBody>
-
           <ModalFooter>
             <Button
               colorScheme="blue"
