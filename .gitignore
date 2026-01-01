@@ -27,5 +27,3 @@ Thumbs.db
 # editor / IDE
 .vscode/
 .idea/
-
-# git run build package.json script finally works
