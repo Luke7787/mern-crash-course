@@ -1,29 +1,31 @@
 # dependencies
 node_modules/
 
-# build output
-build/
-dist/
+# frontend build output
+frontend/dist/
 
 # environment variables
 .env
-.env.local
-.env.development
-.env.test
-.env.production
+*.local
 
 # logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
+lerna-debug.log*
 
-# coverage
-coverage/
+# editor / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
 
 # OS files
 .DS_Store
 Thumbs.db
-
-# editor / IDE
-.vscode/
-.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
